@@ -43,10 +43,10 @@ class CustomToolbar : Toolbar {
 
     private fun initial(context: Context, attributeSet: AttributeSet) {
         initialAttr(context, attributeSet)
-        viewRoot = View.inflate(getContext(), R.layout.td_toolbar, null)
+        viewRoot = View.inflate(getContext(), R.layout.custom_toolbar, null)
         val tvTitle = viewRoot.findViewById<TextView>(R.id.tv_title)
         val bgButtonLeft = viewRoot.findViewById<View>(R.id.bg_button_left)
-        val bgButtonRight = viewRoot.findViewById<ImageView>(R.id.bg_button_right)
+        val bgButtonRight = viewRoot.findViewById<View>(R.id.bg_button_right)
         val buttonRight = viewRoot.findViewById<ImageView>(R.id.iv_btn_right)
         val buttonLeft = viewRoot.findViewById<ImageView>(R.id.iv_btn_left)
 

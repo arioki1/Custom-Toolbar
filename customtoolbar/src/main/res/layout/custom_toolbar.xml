@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#4FC3F7"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/bg_button_left"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="match_parent"
+        android:background="#81D4FA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_width="80dp" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="test" />
+
+    <View
+        android:id="@+id/bg_button_right"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="match_parent"
+        android:background="#81D4FA"
+        android:contentDescription="@string/des_bg_button_right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_width="80dp" />
+
+    <ImageView
+        android:id="@+id/iv_btn_left"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bg_button_left"
+        app:layout_constraintStart_toStartOf="@+id/bg_button_left"
+        app:layout_constraintTop_toTopOf="@+id/bg_button_left"
+        app:srcCompat="@drawable/ic_arrow_back" />
+
+    <ImageView
+        android:id="@+id/iv_btn_right"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bg_button_right"
+        app:layout_constraintStart_toStartOf="@+id/bg_button_right"
+        app:layout_constraintTop_toTopOf="@+id/bg_button_right"
+        app:srcCompat="@drawable/ic_setting" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,3 @@
+include ':customtoolbar'
+include ':app'
+rootProject.name = "Custom Toolbar"
