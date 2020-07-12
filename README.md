@@ -31,7 +31,7 @@ dependencies {
 
 ### Usage
 
-1. Declare your `Toolbar` with `ArcToolbarView`.
+1. Declare your `Toolbar` with `CustomToolbar`.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
