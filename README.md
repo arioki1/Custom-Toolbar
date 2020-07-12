@@ -1,3 +1,5 @@
+  
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![](https://jitpack.io/v/arioki1/Custom-Toolbar.svg)](https://jitpack.io/arioki1/Custom-Toolbar)  [![API](https://img.shields.io/badge/API-21%2B-blue.svg?style=flat)](https://source.android.com/setup/start/build-numbers)
 # Custom-Toolbar
 
 A simple Android library for Custom toolbar, you can modify this project to suit your needs with ease
